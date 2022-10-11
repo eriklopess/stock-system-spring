@@ -16,6 +16,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "users")
+public
 class User implements Serializable {
     @Id
     private int id;
